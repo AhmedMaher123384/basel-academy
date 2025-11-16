@@ -27,7 +27,7 @@ function App() {
       <div className="flex justify-center" style={{ margin: '20px 0' }}>
         <button
           onClick={handleOpenLink}
-          className="bg-[#25D366] text-white rounded-full font-bold flex items-center justify-center shadow-lg cursor-pointer hover:bg-[#20BA5A]"
+          className="bg-[#3b82f6] text-white rounded-full font-bold flex items-center justify-center shadow-lg cursor-pointer hover:bg-[#20BA5A]"
           style={{ width: '280px', height: '50px', fontSize: '15px', fontWeight: '600' }}
         >
           تواصل معنا
@@ -71,7 +71,6 @@ function App() {
       {/* ======== الزر الأزرق "سجل مشتركين" ======== */}
       <div className="flex justify-center" style={{ marginBottom: '30px' }}>
         <button
-          onClick={handleOpenLink}
           className="bg-[#3b82f6] text-white rounded-full font-bold flex items-center justify-center shadow-lg cursor-pointer hover:bg-[#2563eb]"
           style={{ width: '320px', height: '54px', fontSize: '16px', fontWeight: '600' }}
         >
@@ -81,14 +80,14 @@ function App() {
 
       {/* ======== شريط التصفح في الأسفل ======== */}
       <div className="bg-white border-t border-gray-200 flex justify-around" style={{ position: 'fixed', bottom: '0', left: '0', right: '0', padding: '12px 0', zIndex: '9999' }}>
-        <div className="flex flex-col items-center cursor-pointer" onClick={handleOpenLink}>
+        <div className="flex flex-col items-center cursor-pointer" >
           <svg xmlns="http://www.w3.org/2000/svg" className="text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ width: '24px', height: '24px' }}>
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0z" />
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14a4 4 0 014-4h4M8 14a4 4 0 014-4H8m0 8v6m0 0l-2-2m2 2l2-2" />
           </svg>
           <span className="text-gray-600" style={{ fontSize: '11px', marginTop: '4px' }}>الإعدادات</span>
         </div>
-        <div className="flex flex-col items-center cursor-pointer" onClick={handleOpenLink}>
+        <div className="flex flex-col items-center cursor-pointer" >
           <svg xmlns="http://www.w3.org/2000/svg" className="text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ width: '24px', height: '24px' }}>
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 001 1h3m-6 0a1 1 0 001-1v-4a1 1 0 00-1-1h-2a1 1 0 00-1 1v4a1 1 0 001 1h2z" />
           </svg>
