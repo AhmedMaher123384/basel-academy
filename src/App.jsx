@@ -1,10 +1,9 @@
-// ======== بداية الكود الجديد — بدون واتساب خالص ========
 import { useState, useEffect } from 'react';
 
 function App() {
 
   // لينك مؤقت لجوجل — غيّره باللي عايزه بعدين
-  const tempLink = 'https://google.com';
+  const tempLink = 'https://academy-basel.netlify.app/';
                
   // دالة بسيطة تفتح اللينك
   const handleOpenLink = () => {
