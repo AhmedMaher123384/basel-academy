@@ -27,7 +27,7 @@ function App() {
       <div className="flex justify-center" style={{ margin: '20px 0' }}>
         <button
           onClick={handleOpenLink}
-          className="bg-[#3b82f6] text-white rounded-full font-bold flex items-center justify-center shadow-lg cursor-pointer hover:bg-[#20BA5A]"
+          className="bg-[#20BA5A] text-white rounded-full font-bold flex items-center justify-center shadow-lg cursor-pointer hover:bg-[#20BA5A]"
           style={{ width: '280px', height: '50px', fontSize: '15px', fontWeight: '600' }}
         >
           تواصل معنا
